@@ -1,17 +1,4 @@
-#import serial.tools.list_ports
-from tkinter import *
-master = Tk()
-
-canvas = Canvas(master, height=750, width=750)
-canvas.pack()
-
-
-frame_ust = Frame(master, bg="#546523")
-frame_ust.place(relx=0.05, rely=0.05, relwidth=0.75, relheight=0.5)
-
-master.mainloop()
-
-# print("my test")
+print("my test")
 
 # ports = serial.tools.list_ports.comports()
 # serialInst = serial.Serial()
